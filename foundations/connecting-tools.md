@@ -44,6 +44,25 @@ capabilities in a way Claude can call.
 Full official reference: Figma's own MCP setup guide (search "Claude Code and
 Figma MCP server" on Figma's help site).
 
+### Example: business-ops automation via a Google Drive/Sheets MCP
+
+A concrete pattern for turning a recurring spreadsheet task into an
+automated one: read a source file (e.g. an `.xlsx` export), transform or
+filter its rows, then push the result to a live Google Sheet via the Drive
+MCP — instead of manually copy-pasting an updated sheet each time.
+
+- Ask Claude to install the Google Drive/Sheets MCP the same way as any
+  other MCP (see "Installing MCPs" above).
+- Point it at the source data and describe the transform in plain language
+  (e.g. "filter to active rows only, then write this to Sheet X").
+- The MCP call itself references the target file/sheet by its Drive file ID
+  — treat that ID like any other config value: fine to keep in a project
+  doc, but don't need to memorize it, Claude can look it up from the Drive
+  URL.
+- Same caution as Google Workspace CLI tooling above: this needs your real
+  Google account connected, so be deliberate about which account you
+  authorize.
+
 ## 2. CLI
 
 Less common, but faster and more token-efficient than MCP when available,
