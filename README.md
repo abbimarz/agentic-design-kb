@@ -43,7 +43,9 @@ of stretching an existing one.
 
 1. Drop raw notes/screenshots into `_inbox/` as you take them — no
    organizing required at capture time.
-2. Periodically (or immediately, if it's quick) triage each item:
+2. Ask Claude to triage it (e.g. "triage the inbox") — the
+   [`inbox-triage`](.claude/skills/inbox-triage/SKILL.md) skill in this repo
+   automates the steps below. Or do it manually:
    - Strip anything employer/project-specific (real names, internal repo
      URLs, tokens, work emails) — keep only the generalizable pattern.
    - **Never let a real secret (API key, token, password) make it past
