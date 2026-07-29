@@ -44,7 +44,7 @@ For each item in `_inbox/` (text note or screenshot):
 4. **Prefer editing an existing file over creating a new one** if the
    content genuinely belongs there. Create a new file only when nothing
    existing fits — this mirrors the CLAUDE.md length guidance already in
-   `foundations/claude-md-authoring/length-and-splitting.md`: small,
+   `foundations/04-claude-md-authoring/length-and-splitting.md`: small,
    well-scoped files stay useful longer than one file trying to cover
    everything.
 

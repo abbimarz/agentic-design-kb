@@ -19,7 +19,7 @@ evaluations against the output. Best fit: landing page design.
 Translates a Figma link into production-ready code, matching fidelity as
 closely as possible. Reads and reuses existing components rather than
 rebuilding from scratch. **Requires the Figma MCP to be connected** — see
-[../foundations/connecting-tools.md](../foundations/connecting-tools.md).
+[../foundations/05-connecting-tools.md](../foundations/05-connecting-tools.md).
 
 ### Theme Factory
 Quickly applies a chosen style/vibe to simple deliverables — presentations

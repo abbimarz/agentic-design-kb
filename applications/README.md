@@ -8,7 +8,8 @@ discipline), a new domain here doesn't require touching anything else.
 ## Current domains
 
 - [design/](design/) — asset pipelines, AI-native design systems
-- [video-editing/](video-editing/) — currently just a Remotion install stub
+- [video-editing/](video-editing/) — Remotion project structure, animation
+  techniques, brief-to-video workflow
 - [business-ops/](business-ops/) — internal automation (reporting, reminders)
 
 ## Adding a new domain

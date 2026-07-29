@@ -46,7 +46,7 @@ material, rather than designing the taxonomy up front.
 Rather than embedding business facts directly in CLAUDE.md, keep it short
 and structural — it points at `docs/` rather than repeating what's in them
 (same "hub, not repository" principle as
-[../../foundations/claude-md-authoring/length-and-splitting.md](../../foundations/claude-md-authoring/length-and-splitting.md)).
+[../../foundations/04-claude-md-authoring/length-and-splitting.md](../../foundations/04-claude-md-authoring/length-and-splitting.md)).
 The reusable instruction shape:
 
 1. **Identify the deliverable type** the user is asking for (copy/content,

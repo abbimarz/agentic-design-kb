@@ -3,19 +3,19 @@
 Discovery-shaped skills: point them at a set of companies/sites/documents and
 get back a structured report. These generally follow the "script drives, AI
 judges" split described in
-[../foundations/claude-skills/creating-skills.md](../foundations/claude-skills/creating-skills.md).
+[../foundations/06-claude-skills/creating-skills.md](../foundations/06-claude-skills/creating-skills.md).
 
 ### Competitor Pipeline Research
 Searches a set of companies in a competitive space, analyzes their funnel,
 screenshots each, and produces a report. Full worked example:
-[../foundations/claude-skills/skill-example-competitor-research.md](../foundations/claude-skills/skill-example-competitor-research.md).
+[../foundations/06-claude-skills/skill-example-competitor-research.md](../foundations/06-claude-skills/skill-example-competitor-research.md).
 
 ### Colorthief
 Given an industry or a specific list of companies, visits each site and
 returns its color scheme (primary/secondary/tertiary/CTA) as hex codes, plus
 a homepage screenshot for proportion/context. Output as a report `.md` file.
 Good first skill to build from scratch — see the build recipe in
-[../foundations/claude-skills/creating-skills.md](../foundations/claude-skills/creating-skills.md).
+[../foundations/06-claude-skills/creating-skills.md](../foundations/06-claude-skills/creating-skills.md).
 Use Playwright CLI rather than a generic browser MCP for this — faster and
 more consistent for repeated page walks.
 

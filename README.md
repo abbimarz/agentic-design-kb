@@ -9,9 +9,10 @@ useful regardless of which company or project you're at.
 - **[glossary.md](glossary.md)** — flat term list (git/GitHub, MCP, Skills).
   Add a term any time you look one up twice.
 - **[foundations/](foundations/)** — domain-agnostic mechanics of working
-  with Claude: environment setup, git/GitHub, permission modes, connecting
-  tools (MCP/CLI/API), writing CLAUDE.md files, building Skills. Stable —
-  rarely needs new top-level files.
+  with Claude, numbered in the order you'd actually set things up:
+  environment setup → git/GitHub → permission modes → writing CLAUDE.md
+  files → connecting tools (MCP/CLI/API) → building Skills. Stable — rarely
+  needs new top-level files.
 - **[skills-catalog/](skills-catalog/)** — skills worth knowing about,
   organized by discipline (visual design, product design, design systems,
   research & analysis). Grows as you learn about or build new skills.
@@ -59,4 +60,4 @@ of stretching an existing one.
    appending unrelated content to an existing file — small, well-scoped
    files stay useful longer than one file that tries to cover everything
    (same reasoning as CLAUDE.md length — see
-   [foundations/claude-md-authoring/length-and-splitting.md](foundations/claude-md-authoring/length-and-splitting.md)).
+   [foundations/04-claude-md-authoring/length-and-splitting.md](foundations/04-claude-md-authoring/length-and-splitting.md)).

@@ -61,5 +61,5 @@ In rough install order:
    there — it can read local files and preview results in a browser as it
    goes.
 
-See [git-github-basics.md](git-github-basics.md) for turning that folder into
-a real repo.
+See [02-git-github-basics.md](02-git-github-basics.md) for turning that
+folder into a real repo.

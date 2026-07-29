@@ -22,7 +22,7 @@ When to use which Claude Code permission mode:
 ## How context gets loaded into a chat (rough order)
 
 1. The relevant `.md` file(s) (e.g. CLAUDE.md) — see
-   [claude-md-authoring/](claude-md-authoring/structure-and-sections.md).
+   [04-claude-md-authoring/](04-claude-md-authoring/structure-and-sections.md).
 2. Your chat instructions (the prompt itself).
 3. Anything explicitly added via the secondary context toggle (file, text,
    or folder selection).

@@ -18,7 +18,7 @@ generated from it" looks like in practice.
 - CLAUDE.md itself should stay brief and act as a **router**: it tells
   Claude where to go look for the specific context it needs (component
   conventions, tokens, etc.) rather than containing everything itself. See
-  [../../foundations/claude-md-authoring/length-and-splitting.md](../../foundations/claude-md-authoring/length-and-splitting.md).
+  [../../foundations/04-claude-md-authoring/length-and-splitting.md](../../foundations/04-claude-md-authoring/length-and-splitting.md).
 - It's more token-efficient to spend tokens up front getting close to the
   intended style than to vibe-code first and spend time reshaping the UI
   after the fact.

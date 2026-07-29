@@ -75,7 +75,7 @@ finished render:
    write out the phase-by-phase animation approach, confirm ambiguous
    decisions interactively, and list exactly which files will be
    created/modified before touching code. See
-   [../../foundations/permission-modes.md](../../foundations/permission-modes.md).
+   [../../foundations/03-permission-modes.md](../../foundations/03-permission-modes.md).
 4. **Implement in order**: extract geometry into `paths.ts` → write the
    component (animation logic) → register the `<Composition>` in
    `Root.tsx` → typecheck (`npx tsc --noEmit`).
@@ -106,6 +106,6 @@ wipes) used on top of this structure.
 
 This whole pattern is operationalized as a personal Claude Skill
 (`~/.claude/skills/remotion-video/`, not part of this repo — see
-[foundations/claude-skills/](../../foundations/claude-skills/skill-architecture.md))
+[foundations/06-claude-skills/](../../foundations/06-claude-skills/skill-architecture.md))
 so "use the remotion skill" resolves directly instead of relying on Claude
 searching the filesystem for a sibling project.

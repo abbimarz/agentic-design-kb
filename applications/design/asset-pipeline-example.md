@@ -1,7 +1,7 @@
 # Example: Product Asset Pipeline
 
 A worked example of the "AI judges, script executes" split described in
-[../../foundations/claude-skills/creating-skills.md](../../foundations/claude-skills/creating-skills.md),
+[../../foundations/06-claude-skills/creating-skills.md](../../foundations/06-claude-skills/creating-skills.md),
 applied to processing a batch of product photos.
 
 ## The pipeline stages
