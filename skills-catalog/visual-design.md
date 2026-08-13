@@ -29,7 +29,7 @@ and similar lightweight outputs.
 Defines a design philosophy up front, then generates visual directions
 (posters, images, etc.) from it.
 
-### [Emil Kowalski Skill](https://emilkowal.ski/)
+### [Emil Kowalski Skill](https://emilkowal.ski/skill)
 Packages one senior designer's specific knowledge into a skill — animation,
 performance considerations, interaction fundamentals and patterns. Best fit:
 motion/animation work.
