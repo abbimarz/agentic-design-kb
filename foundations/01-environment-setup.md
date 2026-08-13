@@ -178,3 +178,9 @@ the more common default if you don't already have a preference.
 
 See [02-git-github-basics.md](02-git-github-basics.md) for turning that
 folder into a real repo.
+
+## Putting a project online
+
+For a quick, free way to get a static site live (e.g. the portfolio above):
+[Netlify](https://www.netlify.com/) — has a free plan, deploy by uploading
+the project folder, and lets you attach a custom domain.

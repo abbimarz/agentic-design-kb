@@ -26,6 +26,13 @@ useful regardless of which company or project you're at.
 - **[_inbox/](_inbox/)** — landing zone for new raw notes/screenshots before
   they're triaged into the structure above.
 
+## Courses this KB draws on
+
+- [Agentic design (4-hour course)](https://www.youtube.com/watch?v=NlVxAy05KNA&list=PLyNc0qSYwqfdsAmmGhhjknDvBoU7zeyd2) —
+  most of `foundations/` and `skills-catalog/` traces back to this.
+- [Claude Code in Action](https://anthropic.skilljar.com/claude-code-in-action) —
+  Anthropic's own course.
+
 ## How this stays scalable
 
 Three things grow independently, on purpose:

@@ -36,11 +36,18 @@ Instructions → Execution done entirely by one probabilistic model call. See
 [../../applications/design/asset-pipeline-example.md](../../applications/design/asset-pipeline-example.md)
 for a worked example of this pattern applied to a real asset pipeline.
 
+See [Anthropic's list of official skills](https://github.com/anthropics/skills/tree/main/skills)
+for ready-made examples, including the
+[skill-creator](https://github.com/anthropics/skills/blob/main/skills/skill-creator/SKILL.md)
+tool referenced below.
+
 ## Building your first skill — a minimal recipe
 
-1. Install the skill-creator tooling (Anthropic's skill creator from GitHub).
-2. If the skill needs to read a website, install Playwright CLI (prefer this
-   over a generic browser MCP for scripted, repeatable page walks).
+1. Install the skill-creator tooling (Anthropic's skill creator from GitHub,
+   linked above).
+2. If the skill needs to read a website, install
+   [Playwright CLI](https://playwright.dev/agent-cli/installation) (prefer
+   this over a generic browser MCP for scripted, repeatable page walks).
 3. Write the brief in plain language, e.g.:
    > "Whenever I run this skill, look at [companies/industry], read their
    > website and materials, and return their color scheme — primary,
@@ -56,3 +63,9 @@ for a worked example of this pattern applied to a real asset pipeline.
 - Disable/archive skills you're not actively using — see
   [skill-architecture.md](skill-architecture.md) for why (context window
   cost).
+
+## Running a skill on a schedule
+
+[Claude Code Schedule Tasks](https://code.claude.com/docs/en/scheduled-tasks)
+runs a prompt (including one that triggers a specific skill) on a recurring
+schedule, instead of you invoking it manually each time.

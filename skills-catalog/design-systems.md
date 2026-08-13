@@ -3,17 +3,20 @@
 Skills for building or governing a design system rather than a single
 surface.
 
-### Brand Guidelines (Anthropic template)
+### [Brand Guidelines (Anthropic template)](https://mcpservers.org/agent-skills/anthropic/brand-guidelines)
 Anthropic's own brand guidelines used as a starting template — ask Claude to
 swap the contents for your own project's brand and reuse the structure.
 
-### UI/UX Pro Max
+### [UI/UX Pro Max](https://ui-ux-pro-max-skill.nextlevelbuilder.io/)
 A design-intelligence database: catalog of UI styles, color palettes, font
 pairings, chart types, and tech stacks (Vue, React, etc.). Useful as a
 reference for good practices while building your own brand's design system,
-not just for generating one from scratch.
+not just for generating one from scratch. Install: `npx skills add
+https://github.com/nextlevelbuilder/ui-ux-pro-max-skill`. Note: reference the
+specific UI style explicitly when using it on a project — otherwise Claude
+will pull instructions from every `.md` file it can find, not just this one.
 
-### Shadcn
+### [Shadcn](https://ui.shadcn.com/docs/skills)
 Comes preloaded with shadcn's own design system rules — useful when a
 project is already using shadcn as its component base.
 

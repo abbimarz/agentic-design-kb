@@ -13,8 +13,8 @@ capabilities in a way Claude can call.
 - There's a dedicated category for design MCPs.
 - Best fit for general, broad-purpose tasks.
 - **Installing one is usually just:** ask Claude Code to install it (e.g.
-  "install the chrome-devtools MCP"). Some MCPs have more involved setup —
-  see the Figma example below.
+  "install the [chrome-devtools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp)").
+  Some MCPs have more involved setup — see the Figma example below.
 
 ### Example: setting up the Figma MCP server
 
@@ -41,8 +41,8 @@ capabilities in a way Claude can call.
    in as the default — switching accounts mid-session isn't smooth and
    tends to require re-authenticating each time.
 
-Full official reference: Figma's own MCP setup guide (search "Claude Code and
-Figma MCP server" on Figma's help site).
+Full official reference:
+[Figma's own MCP setup guide](https://help.figma.com/hc/en-us/articles/39888612464151-Claude-Code-and-Figma-Set-up-the-MCP-server).
 
 ### Example: business-ops automation via a Google Drive/Sheets MCP
 
