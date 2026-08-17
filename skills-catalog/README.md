@@ -15,6 +15,8 @@ used across several different application domains.
   brand governance
 - [research-and-analysis.md](research-and-analysis.md) — discovery,
   competitive research, content/data mining
+- [marketing.md](marketing.md) — social media strategy, writing, and
+  performance analysis
 
 ## Adding a new skill entry
 

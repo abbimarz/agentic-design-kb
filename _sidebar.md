@@ -27,6 +27,7 @@
     - [Remotion](applications/video-editing/remotion.md)
 - [Skills Catalog](skills-catalog/README.md)
   - [Skills Catalog — Design Systems](skills-catalog/design-systems.md)
+  - [Skills Catalog — Marketing & Social](skills-catalog/marketing.md)
   - [Skills Catalog — Product Design](skills-catalog/product-design.md)
   - [Skills Catalog — Research & Analysis](skills-catalog/research-and-analysis.md)
   - [Skills Catalog — Visual Design](skills-catalog/visual-design.md)
