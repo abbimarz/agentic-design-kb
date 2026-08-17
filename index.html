@@ -21,6 +21,30 @@
         placeholder: "Search the knowledge base...",
         noData: "No results.",
       },
+      plugins: [
+        function (hook, vm) {
+          var lastUpdatedPromise = fetch("_last-updated.json")
+            .then((res) => res.json())
+            .catch(() => ({}));
+
+          hook.doneEach(function () {
+            lastUpdatedPromise.then((map) => {
+              var file = vm.route.file;
+              var date = map[file];
+              if (!date) return;
+
+              var section = document.querySelector(".markdown-section");
+              if (!section) return;
+
+              var footer = document.createElement("p");
+              footer.textContent = "Last updated: " + date;
+              footer.style.cssText =
+                "color:#999;font-size:0.85em;margin-top:3em;padding-top:0.8em;border-top:1px solid #eee;";
+              section.appendChild(footer);
+            });
+          });
+        },
+      ],
     };
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
